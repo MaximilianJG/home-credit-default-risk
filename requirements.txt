@@ -14,7 +14,9 @@ black
 coverage
 flake8
 pytest
+pylint
 yapf
+ipdb
 
 # API
 gcsfs
@@ -27,3 +29,8 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+jupyterlab
+
+# visualization
+matplotlib
+seaborn
