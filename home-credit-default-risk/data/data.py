@@ -19,6 +19,7 @@ class Data:
         return df_dict
 
 
+
 if __name__ == "__main__": 
     data = Data()
     print(data.get_data())

@@ -34,3 +34,4 @@ jupyterlab
 # visualization
 matplotlib
 seaborn
+jupyter_contrib_nbextensions
