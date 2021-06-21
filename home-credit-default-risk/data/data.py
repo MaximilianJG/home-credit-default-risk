@@ -7,7 +7,7 @@ class Data:
         pass
     
     def get_data(self, tables=["application_train", "bureau", "bureau_balance", "POS_CASH_balance", 
-                         "credit_card_balance", "previous_application", "installments_payments"]):
+                               "credit_card_balance", "previous_application", "installments_payments"]):
         
         root_dir = Path(__file__).parents[2]
         df_dict = {}
@@ -17,9 +17,6 @@ class Data:
             df_dict[table] =  pd.read_csv(data_dir_path)
         
         return df_dict
-         
-    def get_credit_card_data(): 
-        pass 
 
 
 if __name__ == "__main__": 
