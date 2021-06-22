@@ -35,3 +35,4 @@ jupyterlab
 matplotlib
 seaborn
 jupyter_contrib_nbextensions
+
